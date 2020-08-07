@@ -23,25 +23,27 @@ witch->watch->match->march->marcs->mares->mores->moves->coves->coven
 You will be implementing a secondary class called LevenshteinFinder that will be used by the main program to solve the problem.
 
 ## SAMPLE EXECUTIONS
-
+```
 What word would you like to start with?
 --->Witch
 What word would you like to end with?
 --->Coven
 The distance between your words is 9
 The path between your words is : witch->watch->match->march->marcs->mares->mores->moves->coves->coven
-
-
+```
+```
 What word would you like to start with?
 --->cat
 What word would you like to end with?
 --->dog
 The distance between your words is 3
 The path between your words is : cat->cot->dot->dog
-
+```
+```
 What word would you like to start with?
 --->bookkeeper
 What word would you like to end with?
 --->sunglasses
 The distance between your words is -1
 The path between your words is : There is no path
+```
