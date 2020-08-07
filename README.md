@@ -13,10 +13,35 @@ The Levenshtein distance, named for it's creator Vladimir Levenshtein, is a meas
 For THIS program however, we are going to focus solely on the ability to change one letter to another. So, we will be thinking of changing one letter at a time, while maintaining the fact that the word is a still a valid word at all times.
 
 So, for an example, the edit distance from "dog" to "cat" is 3. One possible path for this is
-
+```
 "dog" to "dot" to "cot" to cat"
+```
 Note, that there might be other paths, but they all involve at least 3 changes. Another longer example is from "witch" to "coven".
-
+```
 witch->watch->match->march->marcs->mares->mores->moves->coves->coven
-
+```
 You will be implementing a secondary class called LevenshteinFinder that will be used by the main program to solve the problem.
+
+## SAMPLE EXECUTIONS
+
+What word would you like to start with?
+--->Witch
+What word would you like to end with?
+--->Coven
+The distance between your words is 9
+The path between your words is : witch->watch->match->march->marcs->mares->mores->moves->coves->coven
+
+
+What word would you like to start with?
+--->cat
+What word would you like to end with?
+--->dog
+The distance between your words is 3
+The path between your words is : cat->cot->dot->dog
+
+What word would you like to start with?
+--->bookkeeper
+What word would you like to end with?
+--->sunglasses
+The distance between your words is -1
+The path between your words is : There is no path
